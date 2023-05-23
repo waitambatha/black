@@ -15,4 +15,5 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'blacktech.settings')
 
 application = get_wsgi_application()
 
-app = application
+
+
