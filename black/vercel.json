@@ -1,19 +1,17 @@
 {
   "builds":[{
-"src": "black/wsgi.py",
+"src": "black/black/wsgi.py",
 "use": "@vercel/python",
 "config": {"maxLambdaSize": "15mb", "runtime": "python3.9"}
 }
 
 ],
 "routes": [
-{
-   "scr": "/(.*)",
-   "dest": "black/wsgi.py"
-}
+    {
+       "scr": "/(.*)",
+       "dest": "black/black/wsgi.py"
+    }
 
 
 ]
-
-
 }
